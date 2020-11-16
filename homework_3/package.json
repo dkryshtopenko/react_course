@@ -1,0 +1,32 @@
+{
+  "name": "react_course",
+  "version": "1.0.0",
+  "description": "React homework collection",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkryshtopenko/react_course.git"
+  },
+  "keywords": [
+    "react",
+    "lohika",
+    "course",
+    "express",
+    "native",
+    "js",
+    "ts"
+  ],
+  "author": "Kryshtopenko Dmytro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkryshtopenko/react_course/issues"
+  },
+  "homepage": "https://github.com/dkryshtopenko/react_course#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1"
+  }
+}
