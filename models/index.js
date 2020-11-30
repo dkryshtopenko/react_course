@@ -1,10 +1,9 @@
-"use strict";
-
 const Fs = require("fs");
 const Path = require("path");
 const Sequelize = require("sequelize");
-const Settings = require("../db/settings");
-const dbSettings = Settings[Settings.env].db;
+const Settings = require("../config");
+
+const dbSettings = Settings[Settings.ENV].db;
 
 const sequelize = new Sequelize(
     dbSettings.database,
